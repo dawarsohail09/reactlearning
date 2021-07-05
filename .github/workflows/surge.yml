@@ -35,5 +35,5 @@ jobs:
       
       # Runs a set of commands using the runners shell
       - name: Execute Deployment with surge
-        run: surge ./ react09.surge.sh --token ${{ C0bea34f0430037f91f4281ff8b0cf71ase }}
+        run: surge ./ react09.surge.sh --token ${{ secrets.SURGETOKEN }}
       
